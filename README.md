@@ -2,7 +2,7 @@ A simple Go library for topological sorting.  This was a test project to learn t
 
 The interface to use the library is simple.  It assumes you have a collection of nodes that represent a directed acyclic graph.  Each node has a unique name and a list of dependencies.  You must define three methods on your data structure to implement the interface:
 
-```
+```go
 type Interface interface {
 	// Return the number of nodes in the graph
 	Len()               int
