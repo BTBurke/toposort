@@ -17,7 +17,7 @@ type Interface interface {
 
 The function ```SortIndex(n Interface)``` will return a ```[]int``` which represents the execution order that satisfies all dependencies.  You can in turn use this index with Go's sort method to sort the graph in place, if desired.
 
-Two types of possible errors are returned.  You can use type inference to get additional details about the problematic graph node.  See the tests for ideas.
+Two types of possible errors are returned.  You can use type inference to take additional actions as necessary.  See the tests for ideas.
 
 Error | Returned when
 ----- | -------------
