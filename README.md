@@ -22,7 +22,7 @@ Two types of possible errors are returned.  You can use type inference to take a
 Error | Returned when
 ----- | -------------
 MissingDependencyError | Returned if a dependency doesn't exist in the graph
-CyclicGraphError | Returned if the graph contains a cycle.  
+GraphCycleError | Returned if the graph contains a cycle.  
 
 Note:
 - The returned order is not guaranteed to be unique.
